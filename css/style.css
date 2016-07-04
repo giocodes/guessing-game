@@ -1,0 +1,66 @@
+body {
+    padding-top: 70px;
+    background-color: #e9e3d7;
+/*    color: white;*/
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+nav, .navbar, .navbar-default {
+    background-color: #e9e3d7;
+/*    color: white !important;*/
+    border: none;
+    
+}
+.logo {
+    background-image: url(http://preview.fullstackacademy.com/images/fa-logo@2x.png);
+    background-size: cover;
+    height: 60px;
+    width: 200px;
+    float: left;
+}
+p, a {
+/*    color: white !important;*/
+}
+
+.btn-submit {
+    color: white !important;
+    border: none !important;
+    background-color: firebrick !important;
+}
+.btn-submit:hover {
+    color: #eadddd !important;
+    border: none !important;
+    background-color: firebrick !important;
+}
+
+.btn-primary {
+    color: black !important;
+    border: none !important;
+    background: none #d4c3a7 !important;
+}
+.btn-primary:hover {
+    color: white !important;
+    border: none !important;
+    background: none #54685c !important;
+}
+
+float-right{
+    float: right;
+}
+input {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+.challengeLabel {
+    font-size: 75px
+}
+
+.lead {
+    color: firebrick;
+}
+
+.bottom-space {
+    padding-bottom: 10px;
+}
+
+
