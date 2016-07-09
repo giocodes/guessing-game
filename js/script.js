@@ -21,9 +21,9 @@ var Player = function () {
         //Limit the number of guess attempts.
         this.attempts = 5;
         //Update the DOM with feedback such as the result of their guess, hints, etc.
-        this.feedback = ["<15 You are Hot! and very close to the answer too...",
-                         "+-25 Getting closer, like a forcefield",
-                         ">25 Cold as my Ex",
+        this.feedback = ["You are Hot! and very close to the answer too...",
+                         "Getting closer, like a forcefield",
+                         "Cold as my Ex",
                          "Adios amigo! Try again",
                          "Bingo! Go play the Lotto NOW!"];
         this.givefeedback = function (num, remaining) {
